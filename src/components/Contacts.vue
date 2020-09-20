@@ -4,7 +4,8 @@
       </div>
       <div class="contact-form-container">
         <div class="contact-info-container">
-          <h1>WE WANT TO HEAR FROM YOU</h1>
+          <h1 class="contact-heading-one">WE WANT TO HEAR FROM YOU</h1>
+          <h1 class="contact-heading-two">CONTACT US</h1>
           <p>To answer the many questions we receive about our company and our products, we offer detailed information about common areas of interest on our Web site. Please take a look at the options below. They should help you find the information you're looking for.</p>
         </div>
         <div class="contact-form">
@@ -56,6 +57,12 @@
       padding: 1% 1%;
       margin: 1% 6%;
       color: $darkblue;
+      .contact-heading-one{
+        display: block;
+      }
+      .contact-heading-two{
+        display: none;
+      }
       h1{
         font-family: Rubik Mono One;
         font-style: normal;
@@ -134,9 +141,35 @@ text-indent: 2px;
                 background: #1e74de;
               }
             }
-  }
-       }
+        }
+    }
     
+  }
+  @media only screen and (max-width: 600px) {
+    .contact-form-container{
+      display: inline-block;
+      margin: 1% 1%;
+      .contact-info-container{
+        .contact-heading-one{
+        display: none;
+      }
+      .contact-heading-two{
+        display: block;
+      }
+        h1{
+            font-size: 48px;
+            line-height: 68px;
+            text-align: center;
+        }
+      }
+      .contact-form{
+        margin: 0 3%;
+        .send-container{
+          margin: 2%;
+          padding: 4%;
+        }
+      }
+    }
   }
 }
 </style>

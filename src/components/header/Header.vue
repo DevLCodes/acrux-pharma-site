@@ -72,16 +72,16 @@ function close_all_menu() {
 }
 </script>
 <style lang='scss'>
-$cblue : #41B883;
-$corange: #EB760A;
-$cgrey : #3E3A37;
-$cblueblack : #272838;
-$ccream : #FAFBFC;
-$cgrey_green: #435466;
-$clightgrey : #DAD9D7;
+	$cblue : #41B883;
+	$corange: #EB760A;
+	$cgrey : #3E3A37;
+	$cblueblack : #272838;
+	$ccream : #FAFBFC;
+	$cgrey_green: #435466;
+	$clightgrey : #DAD9D7;
 
-$body_height_8: calc((100vh - 113px)/8);
-$body_height_4: calc((100vh - 113px)/4);
+	$body_height_8: calc((100vh - 113px)/8);
+	$body_height_4: calc((100vh - 113px)/4);
 
 i {
 	vertical-align: middle;
@@ -121,14 +121,16 @@ header img {
 header #menu {
 	display: flex;
 	flex-direction: row;
+    margin: 4px 1%;
 }
 header #menu li {
 	position: relative;
 	user-select: none;
-  margin: 35px 25px;
+    min-width: 75px;
+    padding: 1% 5%;
 	i {width: 12px; height: 12px; background-color: $corange;}
 	a {
-		color: $ccream;
+		color: #EB760A;
 		cursor: pointer;
 		font-size: 1.35em;
 		border: none;
@@ -207,16 +209,17 @@ header #hamburger span {
 		flex-direction: column;
 		padding: 0;
 	}
-	header img {width: 50px;}
+	header img {    width: 24%;
+    height: 30px;}
 	header #hamburger {
 		display: block;
 	}
 	header #menu {
 		width: 100%;
 		display: block;
-    height: 0;
-    transform-origin: 50% 0;
-    transition: 0.33s ease;
+		height: 0;
+		transform-origin: 50% 0;
+		transition: 0.33s ease;
 		flex-direction: column;
 	}
 	.display_menu header #menu {
@@ -235,7 +238,7 @@ header #hamburger span {
 		height: 0;
 		opacity: 0;
 		margin-left: 0;
-    transition: 0.25s ease;
+		transition: 0.25s ease;
 		a {
 			left: 0;
       line-height: $body_height_8;
