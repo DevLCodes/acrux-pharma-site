@@ -35,7 +35,7 @@
             font-style: normal;
             font-weight: normal;
             font-size: 17px;
-            line-height: 39px;
+            line-height: 50px;
             text-align: justify;
             color:#FFFDFD;
             padding: 1% 10%;

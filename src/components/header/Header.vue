@@ -18,7 +18,7 @@
 </template>
 
 <script>
-    import image from "../../assets/logo.png"
+    import image from "../../assets/logo-text.png"
 	window.addEventListener("resize", function() {
 		close_all_menu();
 		document.getElementsByTagName("body")[0].classList.remove("display_menu");
@@ -116,7 +116,7 @@ header .wrap {
 	justify-content: space-between;
 }
 header img {
-	width: 100px;
+	max-width: 140px;
 }
 header #menu {
 	display: flex;

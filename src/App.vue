@@ -7,8 +7,11 @@
     </div>
     <Welcome/>
     <Vision/>
+    <Products/>
     <Careers/>
+    <Contacts/>
     <Footer/>
+   
     
   </div>
 </template>
@@ -18,7 +21,9 @@
   import Header from '@/components/header/Header.vue'
   import Welcome from '@/components/Welcome.vue'
   import Vision from '@/components/Vision.vue'
+  import Products from '@/components/Products.vue'
   import Careers from '@/components/Careers.vue'
+  import Contacts from '@/components/Contacts.vue'
   import Footer from '@/components/footer/Footer.vue'
  export default {
   name: 'App',
@@ -26,8 +31,10 @@
     Header,
     Welcome,
     Vision,
+    Products,
     Careers,
-    Footer
+    Contacts,
+    Footer,
   }
 } 
 </script>
