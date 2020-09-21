@@ -1,65 +1,176 @@
 <template>
     <div class="products-page" id="product-component">
         <div class="products-header">
-            Our Products
+            
         </div>
         
         <div class="products-grid-view">
-             <ul class="cards">
-                    <li class="cards_item">
-                    <div class="card">
-                        <div class="card_image"> <span class="helper"></span><img :src="calrace60k"/></div>
-                        <div class="card_content">
-                        <h2 class="card_title">Card Grid Layout</h2>
+            <div class ="category">
+                <h1> Anti Ulcerent
+                </h1>
+                <p>Antiulcer agents and medications for acid peptic disease are commonly used drugs that rarely cause liver injury</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="rabetec20"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Rabetec-20</h2>
+                            </div>
                         </div>
-                    </div>
-                    </li>
-                    <li class="cards_item">
-                    <div class="card">
-                        <div class="card_image"> <span class="helper"></span><img :src="calrace"/></div>
-                        <div class="card_content">
-                        <h2 class="card_title">Card Grid Layout</h2>
-                        
+                        </li>
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="rabetecl"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Rabetec-L</h2>
+                            
+                            </div>
                         </div>
-                    </div>
-                    </li>
-                    <li class="cards_item">
-                    <div class="card">
-                        <div class="card_image"> <span class="helper"></span><img :src="cefmont200"/></div>
-                        <div class="card_content">
-                        <h2 class="card_title">Card Grid Layout</h2>
-                        
+                        </li>
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="sucragem"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Sucragem</h2>
+                            
+                            </div>
                         </div>
-                    </div>
-                    </li>
-                    <li class="cards_item">
-                    <div class="card">
-                        <div class="card_image"><span class="helper"></span><img :src="dezafort"/></div>
-                        <div class="card_content">
-                        <h2 class="card_title">Card Grid Layout</h2>
-                        
+                        </li>
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"><span class="helper"></span><img :src="sucragemo"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Sucragem-O</h2>
+                            
+                            </div>
                         </div>
-                    </div>
-                    </li>
-                    <li class="cards_item">
-                    <div class="card">
-                        <div class="card_image"><span class="helper"></span><img :src="calrace60k"/></div>
-                        <div class="card_content">
-                        <h2 class="card_title">Card Grid Layout</h2>
-                        
+                        </li>
+                    
+                    </ul>
+             </div>
+             <div class ="category">
+                <h1> Calcium Supplement
+                </h1>
+                <p>Calcium is important for optimal bone health throughout your life. Although diet is the best way to get calcium, calcium supplements may be an option if your diet falls short.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="calrace"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
                         </div>
-                    </div>
-                    </li>
-                    <li class="cards_item">
-                    <div class="card">
-                        <div class="card_image"><span class="helper"></span><img :src="calrace60k"/></div>
-                        <div class="card_content">
-                        <h2 class="card_title">Card Grid Layout</h2>
+                        </li>
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="calrace60k"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            
+                            </div>
                         </div>
-                    </div>
-                    </li>
-                </ul>
-        </div>       
+                        </li>
+                    </ul>
+             </div>
+             <div class ="category">
+                <h1> Corticosteroid
+                </h1>
+                <p>Corticosteroids are a class of drug that lowers inflammation in the body. They also reduce immune system activity. Because corticosteroids ease swelling, itching, redness, and allergic reactions.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="dezafort"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+             </div>
+             <div class ="category">
+                <h1> Nutritional Supplements
+                </h1>
+                <p>Nutritional supplements are any dietary supplement that is intended to provide nutrients that may otherwise not be consumed in sufficient quantities.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="oxovit"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+             </div>
+             <div class ="category">
+                <h1> Anti Asthma & Allergy
+                </h1>
+                <p>These medications to ease asthma symptoms. They relax the muscles that tighten around your airways. This helps open them up so you can breathe easier.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="leukozinkid"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+             </div>
+              <div class ="category">
+                <h1> Nerve Supplement
+                </h1>
+                <p>These supplements are used to treat neuropathic pain and fibromyalgia. It’s also used to treat partial onset seizures when taken with other seizure drugs.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="icobalp"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+             </div>
+             <div class ="category">
+                <h1> Anti Biotics
+                </h1>
+                <p>These medicines help stoping infections caused by bacteria. They do this by killing the bacteria or by keeping them from copying themselves or reproducing.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="cefmont200"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+             </div>
+             <div class ="category">
+                <h1> Anti Cold
+                </h1>
+                <p>TThese tablets are a combination medicine used in the treatment of common cold symptoms. It relieves allergy symptoms such as runny nose, stuffy nose, sneezing, watery eyes and congestion or stuffiness.</p>
+                 <ul class="cards">
+                        <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="tuscatd"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                         <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"> <span class="helper"></span><img :src="tuscatls"/></div>
+                            <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+             </div>
+         </div>       
      </div>       
 </template>
 <script>
@@ -69,6 +180,15 @@
     import dezafort from "../../src/assets/DezaFort.jpg"
     import enzamact from "../../src/assets/Enzamact.jpg"
     import icobalp from "../../src/assets/Icobal-P.jpg"
+    import rabetec20 from "../../src/assets/Rabetec-20.jpg"
+    import rabetecl from "../../src/assets/Rabetec-L.jpg"
+    import sucragem from "../../src/assets/Sucragem.jpg"
+    import sucragemo from "../../src/assets/Sucragem-O.jpg"
+    import oxovit from "../../src/assets/Oxovit.jpg"
+    import leukozinkid from "../../src/assets/Leukozin-kid.jpg"
+    import tuscatd from "../../src/assets/TuscatD.jpg"
+    import tuscatls from "../../src/assets/TuscutLS.jpg"
+    
 	export default {
         data: function () {
             return {
@@ -77,7 +197,15 @@
                 cefmont200: cefmont200,
                 dezafort: dezafort,
                 enzamact: enzamact,
-                icobalp:icobalp
+                icobalp:icobalp,
+                rabetec20:rabetec20,
+                rabetecl:rabetecl,
+                sucragem:sucragem,
+                sucragemo:sucragemo,
+                oxovit:oxovit,
+                leukozinkid:leukozinkid,
+                tuscatd:tuscatd,
+                tuscatls:tuscatls
 
             }
         }
@@ -86,7 +214,7 @@
 <style lang="scss">
     .products-page{
         background: white;
-        min-height: 1000px;
+        min-height: 5571px;
         .products-header{
             padding: 2% 2%;
             font-size: 53px;
@@ -115,8 +243,27 @@
              
         }
         .products-grid-view{
-             max-width: 1400px;
+             max-width: 1600px;
              margin: 0 auto;
+             .category {
+                 background-color: #e5e5e5;
+                 padding: 1% 4%;
+                 margin: 7% 2%;
+                 
+                 h1{
+                         font-size: 41px;
+                        font-weight: 400;
+                        text-align: left;
+                        font-family: Raleway;
+                        font-weight: bold;
+                        margin: 36px 1px 1px 1px;
+                 }
+                 p{
+                     text-align: left;
+                     font-family: puritan;
+                     font-size: small;
+                 }
+             }
                  h1 {
                     font-size: 24px;
                     font-weight: 400;
@@ -142,10 +289,10 @@
                 list-style: none;
                 margin: 0;
                 padding: 0;
-                }
+                 }
                 .card_image{
-                   height: 325px;
-                   width: 450px;
+                  height: 281px;
+                  width: 418px;
                    text-align: center;
                 }
 
@@ -173,15 +320,19 @@
                 display: flex;
                 flex-direction: column;
                 overflow: hidden;
+                transition: all .2s ease-in-out;  
                 }
+                 .card:hover {
+                            transform: scale(1.05);
+                        }
 
                 .card_content {
                 padding: 1rem;
-                background: linear-gradient(to bottom left, #272838 40%, #030506b8 100%);
+                background: #c1c1c1;
                 }
 
                 .card_title {
-                color: #ffffff;
+                color: #2c3e50;
                 font-size: 1.1rem;
                 font-weight: 700;
                 letter-spacing: 1px;
@@ -189,6 +340,17 @@
                 margin: 0px;
                 }
 
+        }
+    }
+    @media only screen and (max-width: 600px) { 
+        .products-page{
+        .products-grid-view{
+            .card_image{
+                height: 154px;
+                width: 100%;
+                min-width: 264px;
+            }
+        }
         }
     }
 </style>
