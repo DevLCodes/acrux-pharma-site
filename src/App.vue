@@ -2,9 +2,7 @@
   <div id="app">
    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <Header/>
-    <div class="main-content">
-      <router-view/>  
-    </div>
+    <Home/>
     <Welcome/>
     <Vision/>
     <Products/>
@@ -19,6 +17,7 @@
 
 <script>
   import Header from '@/components/header/Header.vue'
+  import Home from '@/components/Home.vue'
   import Welcome from '@/components/Welcome.vue'
   import Vision from '@/components/Vision.vue'
   import Products from '@/components/Products.vue'
@@ -29,6 +28,7 @@
   name: 'App',
   components: {
     Header,
+    Home,
     Welcome,
     Vision,
     Products,

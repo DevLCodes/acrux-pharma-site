@@ -3,10 +3,10 @@
 		<div class="wrap">
 			<img :src="image"/>
 			<nav id="menu">
-				<li><a>Home</a></li>
-				<li><a>Our Products</a></li>
-				<li><a>Careers</a></li>
-				<li><a>Contact Us</a></li>
+				<li  ><a href="#home">Home</a></li>
+				<li ><a href="#product-component">Our Products</a></li>
+				<li ><a href="#career-component">Careers</a></li>
+				<li ><a href="#contact-component">Contact Us</a></li>
 			</nav>
 			<div id="hamburger" v-on:click="display_menu()">
 				<span></span>
@@ -18,8 +18,24 @@
 </template>
 
 <script>
-    import image from "../../assets/logo-text.png"
-	window.addEventListener("resize", function() {
+	import image from "../../assets/logo-text.png"
+	import $ from 'jquery'
+	export default {
+        data: function () {
+            return {
+                image: image
+            }
+        },
+        methods: {
+            display_menu (){
+				var body = document.getElementsByTagName("body")[0];
+				(!body.classList.contains("display_menu")) ? body.classList.add("display_menu") : body.classList.remove("display_menu");
+			}		
+        }
+    }
+	//import vueSmoothScroll from 'vue2-smooth-scroll'
+	//Vue.use(vueSmoothScroll)
+	/*window.addEventListener("resize", function() {
 		close_all_menu();
 		document.getElementsByTagName("body")[0].classList.remove("display_menu");
 	});
@@ -42,34 +58,55 @@ export default {
                 selectedItem: null,
 				image: image
             }
-        },
-        methods: {
-            display_menu (){
-				var body = document.getElementsByTagName("body")[0];
-				(!body.classList.contains("display_menu")) ? body.classList.add("display_menu") : body.classList.remove("display_menu");
-			}		
         }
-    }
-	// eslint-disable-next-line no-unused-vars
-/*	var myComp = Vue.extend({
-	el: '#app',
-	methods: {
-			display_menu : function(){
-				var body = document.getElementsByTagName("body")[0];
-				(!body.classList.contains("display_menu")) ? body.classList.add("display_menu") : body.classList.remove("display_menu");
-			}
-		}
-	});*/
-function close_all_menu() {
-	var lis = document.getElementById("menu").getElementsByTagName("li");
-	Array.from(lis).forEach(function(e){
-		e.style.marginTop = 0;
+    }*/
+/*	function close_all_menu() {
+		var lis = document.getElementById("menu").getElementsByTagName("li");
+		Array.from(lis).forEach(function(e){
+			e.style.marginTop = 0;
+		});
+		var drop_menus = document.getElementsByClassName("drop_menu");
+		Array.from(drop_menus).forEach(function(e){
+			e.classList.remove("display");
 	});
-	var drop_menus = document.getElementsByClassName("drop_menu");
-	Array.from(drop_menus).forEach(function(e){
-		e.classList.remove("display");
+
+}*/
+$( () => {
+	
+	//On Scroll Functionality
+	$(window).scroll( () => {
+		var windowTop = $(window).scrollTop();
+		windowTop > 100 ? $('nav').addClass('navShadow') : $('nav').removeClass('navShadow');
+		windowTop > 100 ? $('ul').css('top','100px') : $('ul').css('top','160px');
 	});
-}
+	
+	//Click Logo To Scroll To Top
+	$('#logo').on('click', () => {
+		$('html,body').animate({
+			scrollTop: 0
+		},500);
+	});
+	
+	//Smooth Scrolling Using Navigation Menu
+	$('a[href*="#"]').on('click', function(e){
+		$('html,body').animate({
+			scrollTop: $($(this).attr('href')).offset().top - 70
+		},500);
+		e.preventDefault();
+	});
+	
+	//Toggle Menu
+	$('#menu-toggle').on('click', () => {
+		$('#menu-toggle').toggleClass('closeMenu');
+		$('ul').toggleClass('showMenu');
+		
+		$('li').on('click', () => {
+			$('ul').removeClass('showMenu');
+			$('#menu-toggle').removeClass('closeMenu');
+		});
+	});
+	
+});
 </script>
 <style lang='scss'>
 	$cblue : #41B883;

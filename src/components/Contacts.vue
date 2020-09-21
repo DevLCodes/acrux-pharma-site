@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-component">
+  <div class="contact-component" id="contact-component">
       <div class="contact-header">
       </div>
       <div class="contact-form-container">

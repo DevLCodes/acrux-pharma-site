@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
       <div class="home-banner">
         <div class="banner-components">
             <p> Explore our products</P>
