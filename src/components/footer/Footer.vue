@@ -88,16 +88,18 @@ footer{
 
 				li {
 				margin: 0;
-				color: #666666;
+				color: #d0c9c9;
 				font-size: 13px;
 				font-weight: 300;
 				line-height: 22px;
 				list-style-type: none;
 				text-align: left;
-				padding: 6px;
+				padding: 1.5%;
+				min-width: 251px;
 
 				a{
-				margin-left:20px;
+				margin-left: 3%;
+				color: #989898;
 				}
 			}
 		}
@@ -106,14 +108,17 @@ footer{
 		width: 22%;
 		margin: 3px 0 0 20%;
 	.content{
-       @include font-size($p-font-sizes);
-			margin: 2%;
-      }
+        font-size: 20px;
+		color: #d4d4d4;
+		font-family: Puritan;
+		text-align: center;
+	}
       .icons{
-         margin-top: 21px;
+        margin-top: 7%;
+		width: auto;
           a{
-            padding: 9px;
-            margin: 17px;
+            padding: 3.5%;
+			margin: 4%;
             font-size: 30px;
             color: #070617;
             background-color: white;
@@ -146,14 +151,21 @@ footer{
 		.footer-left{
 			width: 100%;
 			margin: 0 9%;
+			.icon-card{
+				img{
+					max-width: 200px;
+					padding: 5% 3%;
+					margin: 0% 2%;
+				}
+			}
 		}
 		.footer-right{
 			width: 100%;
-			margin: 8px 4%;
+			margin: 3% 5%;
 			.icons{
 				a{
-					padding: 9px;
-					margin: 11px;
+					padding: 3%;
+					margin: 4%;
 				}
 			}
 		}
