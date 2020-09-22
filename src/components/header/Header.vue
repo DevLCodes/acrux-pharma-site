@@ -116,7 +116,15 @@ i {
 
 html, body {margin: 0;width: 100%;height: 100%; font-size: 14px; font-family: 'Roboto', sans-serif;}
 * {box-sizing: border-box;}
-body {background-color: #FCA311;padding-top: 113px; overflow-x: hidden; &.display_menu{overflow-y: hidden;}}
+body {
+	background-color: #FCA311;
+	padding-top: 64px;
+	overflow-x: hidden;
+
+	&.display_menu{
+		overflow-y: hidden;
+	}
+}
 ul {padding: 0; margin: 0;}
 li {list-style: none;}
 //.wrap {max-width: 1024px; min-width: 320px;}
@@ -177,7 +185,7 @@ header #menu li {
 
 
 @media screen and (max-width: 660px) {
-	body {padding-top: 70px;}
+	body {padding-top: 113px;}
 	header {
 		max-height: 100px;
 	}
