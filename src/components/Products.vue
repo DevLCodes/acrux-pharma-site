@@ -1,7 +1,7 @@
 <template>
     <div class="products-page" id="product-component">
         <div class="products-header">
-            
+            <h1>Our Products</h1>
         </div>
         
         <div class="products-grid-view">
@@ -216,8 +216,13 @@
         background: white;
         min-height: 5571px;
         .products-header{
-            padding: 2% 2%;
-            font-size: 53px;
+            padding: 1% 2% 0% 2%;
+            h1{
+                margin: 3% 1% 1% 1%;
+                font-family: Puritan;
+                font-size: 5.5rem;
+                border-bottom: 3px solid #2c3e50;
+            }
         }
         .category-filter{
              display: inline-flex;
@@ -344,7 +349,24 @@
     }
     @media only screen and (max-width: 600px) { 
         .products-page{
+                min-height: 4277px;
+        .products-header{
+            h1{
+                    margin: 5% 1% 1% 1%;
+                    font-family: Puritan;
+                    font-size: 2.5rem;
+                    border-bottom: 0.25px solid #2c3e50;
+            }
+        }
         .products-grid-view{
+            .category{
+                h1{
+                    font-size: 1.35rem;
+                }
+                p{
+                    font-size: 0.8rem;
+                }
+            }
             .card_image{
                 height: 154px;
                 width: 100%;

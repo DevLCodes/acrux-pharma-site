@@ -9,7 +9,7 @@
           <p>To answer the many questions we receive about our company and our products, we offer detailed information about common areas of interest on our Web site. Please take a look at the options below. They should help you find the information you're looking for.</p>
         </div>
         <div class="contact-form">
-          <form action="">
+          <form id="signup-form" @submit.prevent="processForm">
             <div class="input-container">
               <label for="name">Name</label>
               <input type="text" />
@@ -28,7 +28,7 @@
               <textarea name="comments" id=""></textarea>
             </div>
             <div class="send-container">
-              <input type="submit" value="Send" onclick="return true"/>
+              <button type="submit">Send</button>
              </div>
           </form>
        </div>
@@ -36,6 +36,8 @@
     </div>      
   </div>
 </template>
+<script>
+</script>
 
 <style lang="scss">
   $lightgrey: #E5E5E5;
@@ -129,7 +131,7 @@ text-indent: 2px;
         }
            .send-container {
             margin: 1%;
-            input {
+            button {
               background: #308dff;
               border: none;
               color: white;

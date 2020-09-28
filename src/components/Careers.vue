@@ -34,7 +34,7 @@
             font-family: Raleway;
             font-style: normal;
             font-weight: normal;
-            font-size: 17px;
+            font-size: 1.35rem;
             line-height: 50px;
             text-align: justify;
             color:#FFFDFD;
@@ -47,9 +47,12 @@
          padding: 2% 7%;
          h1{
              font-size: 83px;
+             line-height: 95px;
          }
          p{
-             padding: 1% 5%;
+            padding: 1% 5%;
+            font-size: 0.85rem;
+            line-height: 32px;
          }
      }
      }

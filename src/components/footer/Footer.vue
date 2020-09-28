@@ -161,7 +161,7 @@ footer{
 		}
 		.footer-right{
 			width: 100%;
-			margin: 3% 5%;
+			margin: 3% 1%;
 			.icons{
 				a{
 					padding: 3%;
