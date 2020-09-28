@@ -9,23 +9,23 @@
           <p>To answer the many questions we receive about our company and our products, we offer detailed information about common areas of interest on our Web site. Please take a look at the options below. They should help you find the information you're looking for.</p>
         </div>
         <div class="contact-form">
-          <form id="signup-form" @submit.prevent="processForm">
+          <form id="contact-form" @submit.prevent="sendEmail">
             <div class="input-container">
-              <label for="name">Name</label>
-              <input type="text" />
+              <label for="name1">Name</label>
+              <input  name="name" id="name" type="text" />
             </div>
             
             <div class="input-container">
-              <label for="phone">Phone</label>
-              <input type="text" />
+              <label for="phone1">Phone</label>
+              <input  name="contact" id="contact" type="text" />
             </div>
             <div class="input-container">
-              <label for="email">Email</label>
-              <input type="text" />
+              <label for="email1">Email</label>
+              <input name="email" id="email" type="text" />
             </div>
             <div class="input-container">
-              <label for="age" required>Description</label>
-              <textarea name="comments" id=""></textarea>
+              <label for="des1" required>Description</label>
+              <textarea id="message" name="message"></textarea>
             </div>
             <div class="send-container">
               <button type="submit">Send</button>
@@ -37,6 +37,27 @@
   </div>
 </template>
 <script>
+import emailjs from 'emailjs-com';
+
+export default {
+  methods: {
+    sendEmail: () => {
+      var form = document.getElementById('contact-form');
+      /*var formData= {
+        name: form.name.value,
+        contact: form.contact.value,
+        email: form.email.value,
+        message:form.message.value
+      }*/
+      emailjs.sendForm('service_slyuaff', 'template_1j9cpbq', form,'user_c808FMaWZu3rvFJCTDMwW')
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
+  }
+}
 </script>
 
 <style lang="scss">
