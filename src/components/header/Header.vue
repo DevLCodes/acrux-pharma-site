@@ -117,7 +117,6 @@ i {
 html, body {margin: 0;width: 100%;height: 100%; font-size: 14px; font-family: 'Roboto', sans-serif;}
 * {box-sizing: border-box;}
 body {
-	background-color: #FCA311;
 	padding-top: 64px;
 	overflow-x: hidden;
 

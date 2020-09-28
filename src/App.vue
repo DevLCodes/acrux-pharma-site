@@ -46,7 +46,10 @@
   text-align: center;
   color: #2c3e50;
 }
-
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
 
 
 </style>
