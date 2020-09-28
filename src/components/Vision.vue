@@ -1,14 +1,15 @@
 <template>
   <div class="vision-component">
-    <img :src="image"/>
-    <div class="text-block top">
-        <h2>Our Vision</h2>
-        <p>Our vision is to become a significant major Pharmaceutical Company in INDIA by providing good quality & affordable economical medicine for the treatment of all types of life threatening disease.</p>
-    </div>
-    <div class="text-block bottom">
-        <p>We are meticulously making available pharma products , and constantly improving existing product mix, thereby carving out a niche for ourselves in the field of pharma marketing in India. We shall provide total customer satisfaction through excellent quality control with economically priced Pharmaceutical Products</p>
-    </div>
-    
+      <div class="container">
+        <img :src="image"/>
+        <div class="text-block top">
+            <h2>Our Vision</h2>
+            <p>Our vision is to become a significant major Pharmaceutical Company in INDIA by providing good quality & affordable economical medicine for the treatment of all types of life threatening disease.</p>
+        </div>
+        <div class="text-block bottom">
+            <p>We are meticulously making available pharma products , and constantly improving existing product mix, thereby carving out a niche for ourselves in the field of pharma marketing in India. We shall provide total customer satisfaction through excellent quality control with economically priced Pharmaceutical Products</p>
+        </div>
+      </div>
  </div>
 </template>
 
@@ -31,15 +32,15 @@
     $ccream : #FAFBFC;
     $cgrey_green: #435466;
     $clightgrey : #DAD9D7;
-    $lightgrey: #E5E5E5;
+    $lightgrey: #EEE;
     .vision-component{
       height: 1000px;
       background-color: $lightgrey ;
         padding-top: 12px;
         img{
             position: absolute;
-            max-width: 50%;
-                    
+            width: 50%;
+            max-width: 720px;
         }
         .text-block{
             background-color: white;

@@ -1,6 +1,6 @@
 <template>
   <div class="welcome-component">
-    <div class="components">
+    <div class="components container">
       <img :src="image"/>
       <div class="welcome-content">
         <h1>Welcome to Acrux Pharmaceuticals</h1>

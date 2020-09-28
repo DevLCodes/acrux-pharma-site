@@ -1,8 +1,10 @@
 <template>
   <div class="career-component" id="career-component">
-    <h1>JOIN US</h1>
-    <p>We at Acrux share the vision of being a pioneer in the field of providing evidence-based alternative solutions in the field of healthy aging. And, we are passionate about it.Arcturus employees are empowered to deliver unbiased knowledge to healthcare providers, caregivers and patients keeping in mind that the health of patient is paramount.You should have the passion and commitment to make a difference to the life of the elderly in order to be part of us. We promise you an environment that rewards performance, encourage work-life balance and support high ethical and moral standards.If interested to be part of us, mail to <b>careers@acruxpharma.com</b>, stating the position you wish to be considered for.
-    </p>
+    <div class="container">
+        <h1>JOIN US</h1>
+        <p>We at Acrux share the vision of being a pioneer in the field of providing evidence-based alternative solutions in the field of healthy aging. And, we are passionate about it.Arcturus employees are empowered to deliver unbiased knowledge to healthcare providers, caregivers and patients keeping in mind that the health of patient is paramount.You should have the passion and commitment to make a difference to the life of the elderly in order to be part of us. We promise you an environment that rewards performance, encourage work-life balance and support high ethical and moral standards.If interested to be part of us, mail to <b>careers@acruxpharma.com</b>, stating the position you wish to be considered for.
+        </p>
+    </div>
  </div>
 </template>
 

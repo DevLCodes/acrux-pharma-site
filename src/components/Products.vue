@@ -251,7 +251,7 @@
              max-width: 1600px;
              margin: 0 auto;
              .category {
-                 background-color: #e5e5e5;
+                 background-color: #eee;
                  padding: 1% 4%;
                  margin: 7% 2%;
                  
