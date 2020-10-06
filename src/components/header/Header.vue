@@ -144,7 +144,7 @@ header .wrap {
 	padding: 0 2%;
 	width: 94%;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: space-between;
 }
 header img {
@@ -158,8 +158,6 @@ header #menu {
 header #menu li {
 	position: relative;
 	user-select: none;
-    min-width: 75px;
-    padding: 1% 5%;
 	i {width: 12px; height: 12px; background-color: $corange;}
 	a {
 		color: #EB760A;
@@ -170,6 +168,7 @@ header #menu li {
 		transition: 0.15s;
 		background: none;
 		text-decoration: none;
+		margin-right: 15px;
 		&:hover {
 			border-bottom-color: $corange;
 			color: $corange;
@@ -184,13 +183,12 @@ header #menu li {
 
 
 @media screen and (max-width: 660px) {
-	body {padding-top: 113px;}
+	body {padding-top: 101px;}
 	header {
 		max-height: 100px;
 	}
 	header .wrap {
 		justify-content: center;
-		align-items: center;
 		flex-direction: column;
 		padding: 0;
 	}

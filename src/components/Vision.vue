@@ -34,9 +34,8 @@
     $clightgrey : #DAD9D7;
     $lightgrey: #EEE;
     .vision-component{
-      height: 1000px;
       background-color: $lightgrey ;
-        padding-top: 12px;
+        padding: 12px 0;
         img{
             position: absolute;
             width: 50%;

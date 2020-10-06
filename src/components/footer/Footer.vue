@@ -65,7 +65,8 @@ footer{
 	width: 100%;
 	.row-1{
 		width: inherit;
-		display: inline-flex;
+		display: flex;
+		justify-content: space-between;
 		background-color: #172131;
 		box-sizing: border-box;
 		text-align: left;
@@ -105,8 +106,11 @@ footer{
 		}
 	}
 	.footer-right{
-		width: 22%;
-		margin: 3px 0 0 20%;
+		width: 40%;
+		margin-top: 5px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
 	.content{
         font-size: 20px;
 		color: #d4d4d4;
@@ -150,7 +154,6 @@ footer{
 		display: block;
 		.footer-left{
 			width: 100%;
-			margin: 0 9%;
 			.icon-card{
 				img{
 					max-width: 200px;

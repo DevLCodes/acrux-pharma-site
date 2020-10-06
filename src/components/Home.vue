@@ -76,7 +76,7 @@ export default {
       padding: 2rem 0.5rem;
       .banner-components {
         img {
-          display: none;
+          margin: 0;
         }
       }
     }
