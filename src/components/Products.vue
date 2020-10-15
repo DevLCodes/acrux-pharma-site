@@ -214,7 +214,6 @@
 <style lang="scss">
     .products-page{
         background: white;
-        min-height: 5571px;
         .products-header{
             padding: 1% 2% 0% 2%;
             h1{
@@ -291,6 +290,7 @@
                 .cards {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
                 list-style: none;
                 margin: 0;
                 padding: 0;
@@ -349,7 +349,6 @@
     }
     @media only screen and (max-width: 600px) { 
         .products-page{
-                min-height: 4277px;
         .products-header{
             h1{
                     margin: 5% 1% 1% 1%;
