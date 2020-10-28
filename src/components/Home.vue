@@ -1,10 +1,9 @@
 <template>
   <div class="home" id="home">
-    <div class="home-banner">
+    <div class="home-banner" >
       <div class="banner-components">
         <p>Explore our products</p>
-        <img :src="image" />
-      </div>
+         </div>
     </div>
   </div>
 </template>
@@ -15,7 +14,7 @@ import image from "../assets/home-banner-flat.png";
 export default {
   data: function () {
     return {
-      image: image,
+      image: image
     };
   },
 };
@@ -23,18 +22,29 @@ export default {
 
 <style lang="scss">
 .home-banner {
-  background-color: #fca311;
+  background-image: url(https://source.unsplash.com/_jbClosDsD4/1200x800) ;
+  clip: rect(60%,0px,0px,0px);
+  background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+  .image {
+        height: 150px;
+        background-repeat: no-repeat;
+    }
   .banner-components {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+
     p {
       max-width: 380px;
       font-family: Sacramento;
       font-size: 6.35em;
       color: #272838;
+      margin: 5% 12%;
     }
     img {
       max-width: 350px;
@@ -60,7 +70,8 @@ export default {
 @media only screen and (max-width: 660px) {
   .home-banner {
     .banner-components {
-      width: 98%;
+      width: 100%;
+      margin: none;
       p {
         font-size: 2.75em;
       }

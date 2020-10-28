@@ -14,10 +14,10 @@
 			<div class="footer-right">  
 					<div class='content'>Follow us</div>
 					<div class='icons'>
-						<a> <i class="fab fa-twitter"></i> </a>
-						<a> <i class="fab fa-facebook-f"></i> </a>
-						<a> <i class="fab fa-linkedin"></i> </a>
-						<a> <i class="fab fa-instagram"></i> </a>
+						<a href='https://twitter.com/acruxpharmaceu1'> <i class="fab fa-twitter"></i> </a>
+						<a href='https://www.facebook.com/acruxpharmaceuticals'> <i class="fab fa-facebook-f"></i> </a>
+						<a href='https://www.linkedin.com/in/acrux-pharmaceuticals-1404341b8/'> <i class="fab fa-linkedin"></i> </a>
+						<a href='https://www.instagram.com/acruxpharmaceuticals'> <i class="fab fa-instagram"></i> </a>
 					</div>
 			</div>
 		</div>
@@ -121,7 +121,7 @@ footer{
         margin-top: 7%;
 		width: auto;
           a{
-            padding: 3.5%;
+            padding: 2.5%;
 			margin: 4%;
             font-size: 30px;
             color: #070617;

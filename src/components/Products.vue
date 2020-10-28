@@ -57,7 +57,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="calrace"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Calrace</h2>
                             </div>
                         </div>
                         </li>
@@ -65,7 +65,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="calrace60k"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Calrace 60K</h2>
                             
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="dezafort"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Dezafort</h2>
                             </div>
                         </div>
                         </li>
@@ -96,7 +96,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="oxovit"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Oxovit</h2>
                             </div>
                         </div>
                         </li>
@@ -111,7 +111,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="leukozinkid"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Leukozin-Kid</h2>
                             </div>
                         </div>
                         </li>
@@ -126,7 +126,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="icobalp"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Icobal P</h2>
                             </div>
                         </div>
                         </li>
@@ -141,7 +141,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="cefmont200"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Cefmont 200</h2>
                             </div>
                         </div>
                         </li>
@@ -156,7 +156,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="tuscatd"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Tuscut D</h2>
                             </div>
                         </div>
                         </li>
@@ -164,7 +164,7 @@
                         <div class="card">
                             <div class="card_image"> <span class="helper"></span><img :src="tuscatls"/></div>
                             <div class="card_content">
-                            <h2 class="card_title">Card Grid Layout</h2>
+                            <h2 class="card_title">Tuscut LS</h2>
                             </div>
                         </div>
                         </li>

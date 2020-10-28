@@ -168,7 +168,7 @@ header #menu li {
 		transition: 0.15s;
 		background: none;
 		text-decoration: none;
-		margin-right: 15px;
+		margin-right: 30px;
 		&:hover {
 			border-bottom-color: $corange;
 			color: $corange;
